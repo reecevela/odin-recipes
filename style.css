@@ -1,0 +1,41 @@
+html {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: lavenderblush;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+a:visited, a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover::before {
+  content: "-> ";
+  color: black;
+}
+
+a:hover::after {
+  content: " <-";
+  color: black;
+}
+
+li.nav {
+  list-style-type: none;
+  color: black;
+  text-align: center;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
